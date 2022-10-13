@@ -14,4 +14,9 @@ Duis volutpat malesuada turpis ac aliquam. Suspendisse rutrum ultrices metus et 
 
 var title = "Lorem Ipsum"
 
-var author;
+var author = "Joe Schmoe";
+
+function updateAuthor() {
+    author = document.getElementById('newAuthor').value;
+    document.getElementById('authorDiv').innerHTML=author;
+}

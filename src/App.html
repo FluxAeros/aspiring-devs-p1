@@ -14,30 +14,24 @@
   </head>
   <!-- Don't worry about anything above this line -->
   <body>
-    <!-- Replace everything in here -->
-    <div class="application-body">
-      <h1>Getting Started in Aspiring Devs!</h1>
-      <div>
-        <h2>Setting up your environment</h2>
-        <span
-          >You'll need to get a code editor (we recommend VSCode) and NodeJS
-          installed on your machine.</span
-        >
-        <ul>
-          <li><a href="https://code.visualstudio.com/">VSCode</a></li>
-          <li>
-            <a href="https://nodejs.org/en/">NodeJS</a>
-            <ul>
-              <li>Download the LTS (16.17.1) as of 2022-10-04</li>
-            </ul>
-          </li>
-          <li>This background color is called "blanched almond"</li>
-        </ul>
-        <span
-          >Now... delete everything inside this file from the &lt;body&gt; to
-          the &lt;/body&gt; tag and make your own app!</span
-        >
-      </div>
+    <div id="titleDiv">
+      <script>
+          document.write(title)
+      </script>
+    </div>
+    <div id="authorDiv">
+      <script>
+        document.write(author)
+      </script>
+    </div>
+    <div id="buttonDiv">
+      <input type="text" id="newAuthor">
+      <button type="button" onclick="updateAuthor()">Update</button>
+    </div>
+    <div id="storyDiv">
+      <script>
+        document.write(story)
+      </script>
     </div>
     <!-- Don't delete below this line -->
   </body>

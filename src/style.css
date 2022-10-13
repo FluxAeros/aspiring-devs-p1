@@ -1,3 +1,23 @@
 body {
     background-color: blanchedalmond;
 }
+
+#titleDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#authorDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#storyDiv {
+    display: flex;
+    justify-content: center;
+}
