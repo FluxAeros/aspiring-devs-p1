@@ -5,11 +5,13 @@ body {
 #titleDiv {
     display: flex;
     justify-content: center;
+    font-size: 25pt; 
 }
 
 #authorDiv {
     display: flex;
     justify-content: center;
+    font-size: 15pt;
 }
 
 #buttonDiv {
@@ -20,4 +22,5 @@ body {
 #storyDiv {
     display: flex;
     justify-content: center;
+    font-size: 12pt;
 }
